@@ -28,5 +28,35 @@
     "pregunta": "¿Dónde están ubicados?",
     "tags": ["ubicación", "dirección", "oficina"],
     "respuesta": "Estamos ubicados en la Calle Falsa 123, Ciudad de Quito."
+  },
+  {
+    "id": "006",
+    "pregunta": "¿Tienen redes sociales?",
+    "tags": ["redes sociales", "facebook", "twitter", "instagram"],
+    "respuesta": "Sí, nos puedes seguir en Facebook, Twitter e Instagram como @empresa."
+  },
+  {
+    "id": "007",
+    "pregunta": "¿Cómo puedo hacer una compra?",
+    "tags": ["compra", "proceso", "pago"],
+    "respuesta": "Puedes hacer una compra a través de nuestra tienda en línea."
+  },
+  {
+    "id": "008",
+    "pregunta": "¿Qué métodos de pago aceptan?",
+    "tags": ["métodos de pago", "tarjeta", "efectivo"],
+    "respuesta": "Aceptamos tarjetas de crédito, débito y pagos en efectivo."
+  },
+  {
+    "id": "009",
+    "pregunta": "¿Tienen garantía en sus productos?",
+    "tags": ["garantía", "productos", "devolución"],
+    "respuesta": "Sí, ofrecemos garantía de un año en todos nuestros productos."
+  },
+  {
+    "id": "010",
+    "pregunta": "¿Cómo puedo devolver un producto?",
+    "tags": ["devolución", "producto", "política"],
+    "respuesta": "Para devolver un producto, contáctanos dentro de los 30 días posteriores a la compra."
   }
 ]
