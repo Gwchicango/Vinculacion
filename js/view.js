@@ -5,8 +5,8 @@ const ChatView = (() => {
 
   function appendMessage(message, sender = "user") {
     const msgDiv = document.createElement("div");
-    msgDiv.textContent = message;
-    msgDiv.className = `message ${sender}`;
+    msgDiv.textContent = `${sender === "user" ? "Tú" : "Bot"}: ${message}`;
+    msgDiv.className = sender;
     chatWindow.appendChild(msgDiv);
     chatWindow.scrollTop = chatWindow.scrollHeight;
   }
