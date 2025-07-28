@@ -7,13 +7,38 @@
   <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
 </head>
 <body>
-  <div id="chat-container">
-    <div id="chat-window"></div>
-    <input type="text" id="user-input" placeholder="Escribe un mensaje..." />
-    <button id="send-btn">Enviar</button>
+  <div id="app-container">
+    <!-- Panel lateral del historial -->
+    <div id="history-panel" class="hidden">
+      <div id="history-header">
+        <h3>Historial de Conversaciones</h3>
+        <div id="history-controls">
+          <button id="clear-history-btn" title="Limpiar historial">🗑️</button>
+          <button id="export-history-btn" title="Exportar historial">📥</button>
+          <button id="close-history-btn" title="Cerrar panel">✖️</button>
+        </div>
+      </div>
+      <div id="history-list"></div>
+    </div>
+
+    <!-- Contenedor principal del chat -->
+    <div id="chat-container">
+      <div id="chat-header">
+        <button id="history-btn" title="Ver historial">📚</button>
+        <button id="new-chat-btn" title="Nueva conversación">💬</button>
+        <span id="current-chat-title">Nueva Conversación</span>
+      </div>
+      <div id="chat-window"></div>
+      <div id="input-container">
+        <input type="text" id="user-input" placeholder="Escribe un mensaje..." />
+        <button id="send-btn">Enviar</button>
+      </div>
+    </div>
   </div>
+
   <script src="js/model.js"></script>
   <script src="js/view.js"></script>
   <script src="js/controller.js"></script>
+  <script src="js/history.js"></script>
 </body>
 </html>
