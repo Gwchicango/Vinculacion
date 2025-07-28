@@ -16,17 +16,5 @@
     "pregunta": "¿Cómo puedo contactarlos?",
     "tags": ["contacto", "correo", "soporte"],
     "respuesta": "Puedes escribirnos a soporte@empresa.com."
-  },
-  {
-    "id": "004",
-    "pregunta": "¿Qué servicios ofrecen?",
-    "tags": ["servicios", "ofertas", "empresa"],
-    "respuesta": "Ofrecemos desarrollo web, consultoría y soporte técnico."
-  },
-  {
-    "id": "005",
-    "pregunta": "¿Dónde están ubicados?",
-    "tags": ["ubicación", "dirección", "oficina"],
-    "respuesta": "Estamos ubicados en la Calle Falsa 123, Ciudad de Quito."
   }
 ]
