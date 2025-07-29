@@ -82,7 +82,7 @@ const ChatController = ((model, view) => {
       view.bindNewChat(handleNewChat);
       view.bindHistoryToggle(handleHistoryToggle);
 
-      view.showMessage("¡Chatbot listo! Escribe un mensaje para comenzar.", "info");
+      view.showMessage("¡Hola! Soy el asistente virtual de la Fundación con Cristo. Puedo ayudarte con información sobre nuestra misión, proyectos, servicios y más. ¿En qué puedo ayudarte?", "info");
 
     } catch (error) {
       console.error('Error initializing chat:', error);
